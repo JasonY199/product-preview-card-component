@@ -11,7 +11,7 @@
 }
 
 @layer utilities {
-  text-preset-1 {
+  .text-preset-1 {
     font-family: var(--font-fraunces);
     font-weight: 700;
     line-height: 100%;
@@ -19,7 +19,7 @@
     letter-spacing: 0px;
   }
 
-  text-preset-2 {
+  .text-preset-2 {
     font-family: var(--font-montserrat);
     font-weight: 700;
     line-height: 110%;
@@ -27,7 +27,7 @@
     letter-spacing: 0px;
   }
 
-  text-preset-3 {
+  .text-preset-3 {
     font-family: var(--font-montserrat);
     font-weight: 500;
     line-height: 160%;
@@ -35,7 +35,7 @@
     letter-spacing: 0px;
   }
 
-  text-preset-4 {
+  .text-preset-4 {
     font-family: var(--font-montserrat);
     font-weight: 500;
     line-height: 120%;
@@ -43,7 +43,7 @@
     letter-spacing: 5px;
   }
 
-  text-preset-5 {
+  .text-preset-5 {
     font-family: var(--font-montserrat);
     font-weight: 500;
     line-height: 120%;
