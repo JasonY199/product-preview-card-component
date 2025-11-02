@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <article className="flex flex-col mx-3 my-20 md:flex-row md:max-w-[600px] md:mx-0 md:my-0">
+    <article className="flex flex-col m-3 md:flex-row md:max-w-[600px]">
       <Image
         src="/image-product-mobile.jpg"
         alt="Product Image"

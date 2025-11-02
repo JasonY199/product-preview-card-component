@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${fraunces.variable} antialiased md:min-h-screen md:flex md:items-center md:justify-center`}
+        className={`${montserrat.variable} ${fraunces.variable} antialiased md:min-h-screen flex items-center justify-center`}
       >
         {children}
       </body>
