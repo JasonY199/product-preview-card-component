@@ -13,8 +13,8 @@ export default function Home() {
       <Image
         src="/image-product-desktop.jpg"
         alt="Product Image"
-        width={600}
-        height={900}
+        width={300}
+        height={456}
         className="hidden md:block rounded-l-lg md:flex-1"
       />
       <section className="flex flex-col gap-6 bg-white p-8 rounded-b-lg md:flex-1 md:rounded-r-lg md:rounded-bl-none">
