@@ -32,7 +32,7 @@ export default function Home() {
           <span className="text-preset-1 text-green-500">$149.99</span>
           <span className="text-preset-5 line-through">$169.99</span>
         </div>
-        <button className="bg-green-500 text-preset-2 text-white flex gap-2 justify-center items-center rounded-lg py-4 px-8">
+        <button className="bg-green-500 text-preset-2 text-white flex gap-2 justify-center items-center rounded-lg py-4 px-8 hover:bg-green-700 transition-colors">
           <Image src="/icon-cart.svg" alt="" width={18} height={18} />
           <span>Add to Cart</span>
         </button>
