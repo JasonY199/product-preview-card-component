@@ -10,7 +10,7 @@ export default function Home() {
         height={684}
         className="rounded-t-lg"
       />
-      <section className="flex flex-col gap-6 bg-white p-8">
+      <section className="flex flex-col gap-6 bg-white p-8 rounded-b-lg">
         <div className="flex flex-col gap-6">
           <span className="text-preset-4">PERFUME</span>
           <h1 className="text-preset-1 text-black">
@@ -25,7 +25,15 @@ export default function Home() {
           <span className="text-preset-1 text-green-500">$149.99</span>
           <span className="text-preset-5 line-through">$169.99</span>
         </div>
-        <button>Add to Cart</button>
+        <button className="bg-green-500 text-preset-2 text-white flex gap-2 justify-center items-center rounded-lg py-4 px-8">
+          <Image
+            src="/icon-cart.svg"
+            alt="Add to card button"
+            width={18}
+            height={18}
+          />
+          <span>Add to Cart</span>
+        </button>
       </section>
     </article>
   );
